@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { profile, honors } from "../data/content";
+import { profile, honors, references } from "../data/content";
 import "./Nav.css";
 
 const LINKS = [
@@ -9,8 +9,13 @@ const LINKS = [
   { id: "research", label: "Research" },
   { id: "skills", label: "Skills" },
   { id: "honors", label: "Honors" },
+  { id: "references", label: "References" },
   { id: "contact", label: "Contact" },
-].filter((link) => link.id !== "honors" || honors.length > 0);
+].filter((link) => {
+  if (link.id === "honors") return honors.length > 0;
+  if (link.id === "references") return references.length > 0;
+  return true;
+});
 
 export default function Nav({ active }) {
   const [open, setOpen] = useState(false);

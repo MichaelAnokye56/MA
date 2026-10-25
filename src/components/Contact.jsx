@@ -4,7 +4,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <Section id="contact" index={honors.length > 0 ? "07" : "06"} title="Contact">
+    <Section id="contact" index={honors.length > 0 ? "08" : "07"} title="Contact">
       <p className="contact-lead">
         I'm always happy to talk about research collaborations, speaking opportunities, or
         just energy systems in general. The fastest way to reach me is email.

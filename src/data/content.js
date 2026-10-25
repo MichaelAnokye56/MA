@@ -120,3 +120,13 @@ export const skills = [
 ];
 
 export const honors = [];
+
+export const references = [
+  {
+    name: "Prof. Hongyu Sun",
+    title: "Professor & Ph.D. Supervisor",
+    affiliation: "Shandong University of Science and Technology",
+    email: "shygy@126.com",
+    phone: "+86 135 8930 4661",
+  },
+];

@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Research from "./components/Research";
 import Skills from "./components/Skills";
 import Honors from "./components/Honors";
+import References from "./components/References";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useActiveSection } from "./hooks/useActiveSection";
@@ -19,6 +20,7 @@ const SECTION_IDS = [
   "research",
   "skills",
   "honors",
+  "references",
   "contact",
 ];
 
@@ -39,6 +41,7 @@ function App() {
       <Research />
       <Skills />
       <Honors />
+      <References />
       <Contact />
       <Footer />
     </>
