@@ -35,7 +35,7 @@ export const education = [
     location: "Qingdao, Shandong, China",
     period: "Sept 2026 — Jul 2030 (expected)",
     details:
-      "Department of Electrical Engineering and Automation. Dissertation: [working title]. Advisor: Prof. [Name]. Focus: solid-state transformers, advanced power electronic converters, and intelligent control for smart energy systems.",
+      "Department of Electrical Engineering and Automation. Advisor: Prof. Hongyu Sun. Focus: solid-state transformers, advanced power electronic converters, and intelligent control for smart energy systems.",
   },
   {
     degree: "MPhil in Communication and Information System Engineering",
