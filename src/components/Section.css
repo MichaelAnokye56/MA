@@ -1,0 +1,25 @@
+.section {
+  padding-top: var(--section-gap);
+  scroll-margin-top: 5rem;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  margin-bottom: 1.1rem;
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3vw, 1.9rem);
+}
+
+.section-rule {
+  height: 1px;
+  background: linear-gradient(90deg, var(--border-strong), transparent 70%);
+  margin-bottom: 2.2rem;
+}
+
+.section-body {
+  color: var(--text-muted);
+}

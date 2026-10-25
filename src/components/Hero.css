@@ -1,0 +1,114 @@
+.hero {
+  padding-top: clamp(3.5rem, 8vw, 6rem);
+  padding-bottom: var(--section-gap);
+  scroll-margin-top: 5rem;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.hero-text {
+  max-width: 560px;
+}
+
+.hero-text .mono-label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.hero-name {
+  font-size: clamp(2.4rem, 6vw, 3.4rem);
+  line-height: 1.05;
+  margin-bottom: 0.6rem;
+}
+
+.hero-role {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  margin-bottom: 1.1rem;
+}
+
+.hero-tagline {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text);
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.9rem;
+  margin-bottom: 1.75rem;
+}
+
+.hero-socials {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.hero-socials a {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  border-bottom: 1px solid transparent;
+}
+
+.hero-socials a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.hero-photo-frame {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-photo-frame span {
+  font-family: var(--font-serif);
+  font-size: 2.6rem;
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .hero-inner {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 1.75rem;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-tagline {
+    max-width: 100%;
+  }
+
+  .hero-actions,
+  .hero-socials {
+    justify-content: center;
+  }
+
+  .hero-photo-frame {
+    width: 120px;
+    height: 120px;
+  }
+}

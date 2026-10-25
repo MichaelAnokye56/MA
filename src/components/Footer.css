@@ -1,0 +1,20 @@
+.footer {
+  margin-top: var(--section-gap);
+  border-top: 1px solid var(--border);
+  padding: 1.8rem 0 2.5rem;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: var(--text-faint);
+}
+
+.footer-inner a {
+  color: var(--text-faint);
+}
+
+.footer-inner a:hover {
+  color: var(--accent);
+}

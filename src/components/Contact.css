@@ -1,0 +1,33 @@
+.contact-lead {
+  max-width: 540px;
+  margin-bottom: 1.6rem;
+}
+
+.contact-email {
+  display: inline-block;
+  font-family: var(--font-serif);
+  font-size: clamp(1.4rem, 4vw, 1.9rem);
+  color: var(--text);
+  border-bottom: 1px solid var(--border-strong);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1.6rem;
+}
+
+.contact-email:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.contact-socials {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.contact-socials a {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.contact-socials a:hover {
+  color: var(--accent);
+}
